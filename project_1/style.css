@@ -1,0 +1,187 @@
+*
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 9px;
+    font-family: 'SF Pro Display', sans-serif;
+
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1500;
+    width: 100%;
+    height: 4.4rem;
+    background-color: rgba(141, 137, 137, 0.8);
+    backdrop-filter: blur(2rem);
+
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+    margin: none;
+    color: #fff;
+    
+}
+.nav-list-mobile{
+    display: none;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 0px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: 0, 4s ease-in-out;
+
+}
+ul li a:hover{
+    color: rgb(43, 41, 41);
+
+}
+.nav-link{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0px;
+    transition: 0.5s;
+    
+}
+.nav-link:hover{
+    opacity: .7s;
+}
+.nav-link-apple{
+    width: 2rem;
+    height: 2rem;
+    background: url("Apple_logo_white.svg.png") center no-repeat;
+    align-items: flex;
+    display: flex;
+
+}
+.nav-link-search{
+    width: 3rem;
+    height: 2rem;
+    background: url("search.svg") center no-repeat;
+
+}.nav-link-bag{
+    width: 2.2rem;
+    height: 2rem;
+    background: url("shopping-bag.svg") center no-repeat;
+
+}
+.MacBook-13{
+    width: 100%;
+    padding: 0%;
+    background: url("hero_endframe__bsza6x4fldiq_large.jpg");
+    margin-top: 3.9rem;
+    background-color: black;
+    
+
+}
+.iPhone-12{
+    width: 100%;
+    padding: 0%;
+    background: url("iphone-12-family-select-2021.jfif");
+    margin-top: 4.4rem;
+}
+
+
+.title{
+    color: #fff;
+    text-align: center;
+    padding: 5.5rem;
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+
+}
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-bottom: 2.6rem;
+
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+.iPhone-11{
+    background: url("iphone11-select-2019-family.jfif");
+    background-color: #fff;
+
+
+}
+.title-dark{
+    color: #000;
+}
+.cta-link-darker{
+    color: #007c90;
+}
+.cta-link-darker:hover{
+    border-bottom-color: #007c90;
+}
+.watch{
+    background: url("watch_large.jpg");
+    background-color: #fff;
+}
+.title-heading-watch{
+    height: 7.8rem;
+    background-color: rgb(126, 121, 112);
+    background: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 7.8rem;
+    margin: 1.6rem;
+}
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom: .6rem solid #fff;
+}
+.iPhone-11-pro{
+    border-top: none;
+}
